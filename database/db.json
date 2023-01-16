@@ -1,0 +1,179 @@
+{
+  "ofertas": [
+    {
+      "id": 1,
+      "nombre": "Limon con semilla",
+      "precioFinal": 26.8,
+      "precioInicial": 39.9,
+      "imagen": "https://res.cloudinary.com/lau2401/image/upload/v1641500086/Name_Limon_blhzrr.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "Tomate",
+      "precioFinal": 21.7,
+      "precioInicial": 32.9,
+      "imagen": "https://res.cloudinary.com/lau2401/image/upload/v1641500090/Name_Tomate_rem5oz.jpg"
+    },
+    {
+      "id": 3,
+      "nombre": "Aguacate Hass",
+      "precioFinal": 56.8,
+      "precioInicial": 69.9,
+      "imagen": "https://res.cloudinary.com/lau2401/image/upload/v1641500086/Name_Aguacate_vxk2nz.jpg"
+    },
+    {
+      "id": 4,
+      "nombre": "Nopal Limpio",
+      "precioFinal": 25.8,
+      "precioInicial": 29.9,
+      "imagen": "https://res.cloudinary.com/lau2401/image/upload/v1641500086/Name_Nopal_rtkhhu.jpg"
+    },
+    {
+      "id": 5,
+      "nombre": "Tomate verde sin cascara",
+      "precioFinal": 22.8,
+      "precioInicial": 24.9,
+      "imagen": "https://res.cloudinary.com/lau2401/image/upload/v1641500090/Name_Tomate_verde_vtgfxg.jpg"
+    },
+    {
+      "id": 6,
+      "nombre": "Coca-Cola Sin Azucar",
+      "precioFinal": 26,
+      "precioInicial": 28,
+      "imagen": "https://res.cloudinary.com/lau2401/image/upload/v1641500086/Name_Cocacola_sin_azucar_judaqw.jpg"
+    },
+    {
+      "id": 7,
+      "nombre": "Coca-Cola",
+      "precioFinal": 12.9,
+      "precioInicial": 14,
+      "imagen": "https://res.cloudinary.com/lau2401/image/upload/v1641500086/Name_Cocacola_cbruil.jpg"
+    }
+  ],
+  "populares": [
+    {
+      "id": 8,
+      "nombre": "San Rafael pechuga de pavo",
+      "precioFinal": 62.5,
+      "imagen": "https://res.cloudinary.com/lau2401/image/upload/v1641500090/Name_Pechuga_de_pavo_ao7sb8.jpg"
+    },
+    {
+      "id": 9,
+      "nombre": "Pan Bimbo grande",
+      "precioFinal": 38.9,
+      "imagen": "https://res.cloudinary.com/lau2401/image/upload/v1641500087/Name_Pan_Bimbo_gzriwe.jpg"
+    },
+    {
+      "id": 10,
+      "nombre": "Mayonesa",
+      "precioFinal": 48.5,
+      "imagen": "https://res.cloudinary.com/lau2401/image/upload/v1641500086/Name_Mc_Cormick_Mayonesa_vxr4lc.jpg"
+    },
+    {
+      "id": 11,
+      "nombre": "Pasta dental Colgate",
+      "precioFinal": 35.5,
+      "imagen": "https://res.cloudinary.com/lau2401/image/upload/v1641500086/Name_Colgate_ju2onf.jpg"
+    },
+    {
+      "id": 12,
+      "nombre": "Huevos san juan",
+      "precioFinal": 37.5,
+      "imagen": "https://res.cloudinary.com/lau2401/image/upload/v1641500086/Name_Huevos_rpclev.jpg"
+    }
+  ],
+  "ubicaciones": [
+    {
+      "id": 1,
+      "ciudad": "Armenia"
+    },
+    {
+      "id": 2,
+      "ciudad": "Circacia"
+    },
+    {
+      "id": 3,
+      "ciudad": "Salento"
+    },
+    {
+      "id": 4,
+      "ciudad": "Pijao"
+    },
+    {
+      "id": 5,
+      "ciudad": "Filandia"
+    },
+    {
+      "id": 6,
+      "ciudad": "La Tebaida"
+    },
+    {
+      "id": 7,
+      "ciudad": "Genova"
+    },
+    {
+      "id": 8,
+      "ciudad": "Calarca"
+    },
+    {
+      "id": 9,
+      "ciudad": "Montenegro"
+    },
+    {
+      "id": 10,
+      "ciudad": "Cordoba"
+    },
+    {
+      "id": 11,
+      "ciudad": "Quimbaya"
+    }
+  ],
+  "carrito": [
+    {
+      "id": 2,
+      "nombre": "Tomate",
+      "precioFinal": 21.7,
+      "precioInicial": 32.9,
+      "imagen": "https://res.cloudinary.com/lau2401/image/upload/v1641500090/Name_Tomate_rem5oz.jpg"
+    },
+    {
+      "id": 1,
+      "nombre": "Limon con semilla",
+      "precioFinal": 26.8,
+      "precioInicial": 39.9,
+      "imagen": "https://res.cloudinary.com/lau2401/image/upload/v1641500086/Name_Limon_blhzrr.jpg"
+    },
+    {
+      "id": 3,
+      "nombre": "Aguacate Hass",
+      "precioFinal": 56.8,
+      "precioInicial": 69.9,
+      "imagen": "https://res.cloudinary.com/lau2401/image/upload/v1641500086/Name_Aguacate_vxk2nz.jpg"
+    },
+    {
+      "id": 4,
+      "nombre": "Nopal Limpio",
+      "precioFinal": 25.8,
+      "precioInicial": 29.9,
+      "imagen": "https://res.cloudinary.com/lau2401/image/upload/v1641500086/Name_Nopal_rtkhhu.jpg"
+    },
+    {
+      "id": 12,
+      "nombre": "Huevos san juan",
+      "precioFinal": 37.5,
+      "imagen": "https://res.cloudinary.com/lau2401/image/upload/v1641500086/Name_Huevos_rpclev.jpg"
+    },
+    {
+      "id": 8,
+      "nombre": "San Rafael pechuga de pavo",
+      "precioFinal": 62.5,
+      "imagen": "https://res.cloudinary.com/lau2401/image/upload/v1641500090/Name_Pechuga_de_pavo_ao7sb8.jpg"
+    },
+    {
+      "id": 11,
+      "nombre": "Pasta dental Colgate",
+      "precioFinal": 35.5,
+      "imagen": "https://res.cloudinary.com/lau2401/image/upload/v1641500086/Name_Colgate_ju2onf.jpg"
+    }
+  ]
+}

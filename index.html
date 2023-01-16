@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/92a663fd42.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Tiendita</title>
+  </head>
+  <body>
+    <!--
+        - HEADER
+    -->
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="./sources/logo.svg" alt="tiendita" />
+      </a>
+      <div class="header_left">
+        <div class="header__left-location">
+          <i class="fa-solid fa-location-dot"></i>
+          <button id="locationPicker" class="location-text">Dónde te encuentras?</button>
+          <div class="location-modal" id="locationModal">
+            <i
+              id="closeModalBtn"
+              class="fa-solid fa-circle-xmark car__header-btn"
+            ></i>
+            <h2 class="location__modal-title">
+              ¿Dónde quieres recibir tu pedido?
+            </h2>
+            <p class="location__modal-text">
+              Para poder ofrecerte productos dentro de tu área, necesitamos tu
+              dirección
+            </p>
+            <div class="location__modal-input">
+              <i class="fa-solid fa-location-dot"></i>
+              <input type="text" placeholder="Ingresa tu direccion" />
+            </div>
+            <button class="location__modal-btn">Buscar</button>
+          </div>
+        </div>
+        <div class="header__left-separator"></div>
+        <div id="openBtn" class="header__car">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span id="carQuantity"></span>
+        </div>
+      </div>
+    </header>
+    <!--
+      - CAR
+    -->
+    <div class="overlay" id="overlay"></div>
+    <div id="car" class="car">
+      <div class="car__header">
+        <p class="car__header-location">
+          Entrega en: <span>Mexico City Marriott Reforma Hotel</span>
+        </p>
+        <i id="closeBtn" class="fa-solid fa-circle-xmark car__header-btn"></i>
+      </div>
+      <ul id="carList" class="car-list"></ul>
+      <div class="car__bottom">
+        <button id="emptyCar" class="empty-car">Vaciar canasta</button>
+        <div class="car-total">
+          <p id="carQuantity" class="car-total-quantity"></p>
+          <button class="car-total-pay">Ir a pagar</button>
+          <p class="car-total-price">$227.48</p>
+        </div>
+      </div>
+    </div>
+    <main>
+      <article>
+        <!--
+            BANNER
+        -->
+        <section class="section banner">
+          <img src="./sources/banner.png" alt="" class="banner__img" />
+          <p class="banner__text">
+            ¡Adquiere todos tus productos favoritos al mejor precio!
+          </p>
+        </section>
+
+        <!--
+            OFFERS
+        -->
+        <section class="section products-section">
+          <h2 class="section-title">Ofertas</h2>
+          <div id="offertContainer" class="products__wrapper"></div>
+        </section>
+
+        <!--
+            POPULARS          
+        -->
+        <section class="section products-section">
+          <h2 class="section-title">Los más populares</h2>
+          <div id="popularContainer" class="products__wrapper"></div>
+        </section>
+      </article>
+    </main>
+    <script src="./logic.js"></script>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "sprint-4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "json-server --watch ./database/db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andresdvelez/sprint-4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andresdvelez/sprint-4/issues"
+  },
+  "homepage": "https://github.com/andresdvelez/sprint-4#readme",
+  "dependencies": {
+    "json-server": "^0.17.1"
+  }
+}
